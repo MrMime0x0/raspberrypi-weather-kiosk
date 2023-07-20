@@ -5,7 +5,7 @@ Packages needed for this to work are "xdotool" to refresh the page
 
 Create a folder called kiosk and then create a file named weather-kiosk.sh in the folder of the code posted in this repo
 
-After that go to the /etc/xdg/lxsession/LXDE-pi/autostart
+After that go edit the file in /etc/xdg/lxsession/LXDE-pi/autostart
 
 Now create a new line called @/home/YourUser/kiosk/weather-kiosk.sh
 
