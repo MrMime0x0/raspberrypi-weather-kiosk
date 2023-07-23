@@ -8,12 +8,10 @@ Create a folder called kiosk and then create a file named weather-kiosk.sh in th
 Now chmod the file with the following command below:
 
 =======================================================
-
 chmod -x weather-kiosk.sh
 chmod -R o+wrx weather-kiosk.sh
 chmod -R u+wrx weather-kiosk.sh
 chmod -R g+wrx weather-kiosk.sh
-
 =======================================================
 
 After that go edit the file in /etc/xdg/lxsession/LXDE-pi/autostart
